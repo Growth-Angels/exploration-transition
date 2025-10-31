@@ -1,0 +1,96 @@
+$path: "/fonts/";
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-LightItalic.woff2") format("woff2"), url("#{$path}Youth-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Italic.woff2") format("woff2"), url("#{$path}Youth-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Bold.woff2") format("woff2"), url("#{$path}Youth-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Light.woff2") format("woff2"), url("#{$path}Youth-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-BoldItalic.woff2") format("woff2"), url("#{$path}Youth-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Regular.woff2") format("woff2"), url("#{$path}Youth-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-BlackItalic.woff2") format("woff2"), url("#{$path}Youth-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-ThinItalic.woff2") format("woff2"), url("#{$path}Youth-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Black.woff2") format("woff2"), url("#{$path}Youth-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Medium.woff2") format("woff2"), url("#{$path}Youth-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-MediumItalic.woff2") format("woff2"), url("#{$path}Youth-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Youth";
+  src: url("#{$path}Youth-Thin.woff2") format("woff2"), url("#{$path}Youth-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}

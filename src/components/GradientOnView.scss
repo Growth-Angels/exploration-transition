@@ -1,0 +1,36 @@
+.gradient-on-view {
+  .animated-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    will-change: transform;
+    height: 100vh;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  p,
+  h1 {
+    transition: color 0.5s cubic-bezier(0.33, 1, 0.68, 1);
+  }
+
+  &--secondary {
+    transition: background-color 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+    p,
+    h1 {
+      transition: color 1.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .animated-bg {
+      top: auto;
+      bottom: 0;
+    }
+  }
+}
